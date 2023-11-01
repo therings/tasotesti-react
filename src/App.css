@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  height: 100%;
+  overflow: auto;
 }
-
+p{
+  padding: 10px 10px;
+}
+.newscard {
+  height: 100%;
+  display: flex;
+  overflow: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
